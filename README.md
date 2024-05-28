@@ -42,7 +42,7 @@
 |git clone + URL + --branch + nome da branch + --single-branch | clona apenas a branch especifica (sem nome da branch ele clona a branch main)|
 |git add + nome do arquivo | adiciona arquivo existente ao git|
 |git commit -m"nome do commit"| cria comit (prepara para enviar para remoto)|
-|git remote add origin + URL |registra o repositório remoto e adiciona o endereço em “origin”|
+|git remote add origin + URL |cria um repositório remoto e adiciona o endereço em “origin”|
 |git log | mostra commit pronto |
 |git push -u origin main ou master|encaminha as mudanças commitadas para o GitHub|
 
