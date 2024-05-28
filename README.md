@@ -41,9 +41,11 @@
 |git remote add + nome do repositorio remoto (padrao origin) + URL | conecta repositorio local com repositorio remoto|
 |git clone + URL + --branch + nome da branch + --single-branch | clona apenas a branch especifica (sem nome da branch ele clona a branch main)|
 |git add + nome do arquivo | adiciona arquivo existente ao git|
-|git commit| captura o estado atual do arquivo e adiciona as alterações para o histórico do repositório (prepara para enviar para remoto)|
+|git commit -m"nome do commit"| cria comit (prepara para enviar para remoto)|
 |git remote add origin + URL |registra o repositório remoto e adiciona o endereço em “origin”|
 |git push -u origin main ou master|encaminha as mudanças commitadas para o GitHub|
+|git log | mostra commit pronto |
+
 
 ### Observações
 
