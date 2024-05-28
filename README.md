@@ -7,6 +7,8 @@
 
 - [Configuração Git](https://git-scm.com/docs)
 
+- [Dicas Git](https://medium.com/@habbema/malhando-o-git-9175ab29ef6a)
+
 
 ## Comandos Principais Git
 
@@ -40,7 +42,7 @@
 |git remote -v | mostra os repositorios remotos que esta vinculado |
 |git remote add + nome do repositorio remoto (padrao origin) + URL | conecta repositorio local com repositorio remoto|
 |git clone + URL + --branch + nome da branch + --single-branch | clona apenas a branch especifica (sem nome da branch ele clona a branch main)|
-|git add + nome do arquivo | adiciona arquivo existente ao git|
+|git add + nome do arquivo ou . | adiciona arquivo existente ao git, ou . para todos arquivos|
 |git commit -m"nome do commit"| cria comit (prepara para enviar para remoto)|
 |git remote add origin + URL |cria um repositório remoto e adiciona o endereço em “origin”|
 |git log | mostra commit pronto |
