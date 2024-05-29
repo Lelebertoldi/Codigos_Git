@@ -1,6 +1,9 @@
 
 # Treinamento DIO de Git e GitHub
 
+---
+> Anotações para uso pessoal sobre os comandos mais úteis do Git do conteúdo aprendido nas aulas da DIO 
+
 ## Lins úteis
 
 - [Formatação GitHub](https://docs.github.com/pt/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables)
@@ -15,7 +18,7 @@
 
 
 
-## Comandos Principais Git
+## Comandos Principais do Git
 
 
 
