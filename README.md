@@ -12,8 +12,6 @@
 
 - [Configuração Git](https://git-scm.com/docs)
 
-- [Dicas Git](https://medium.com/@habbema/malhando-o-git-9175ab29ef6a)
-
 - [Editar README online](https://readme.so/pt)
 
 
@@ -78,7 +76,7 @@
 |`git stash list` | lista modificaçoes arquivadas|
 |`git stash apply` | volta a modificaçao arquivada|
 |`git stash pop`| exclui modificaçao arquivada mais recente da pilha|
-
+|`git remote add upstream + URL`|adiciona a URL apenas para download (pull), mas nao para upload (push)|
 
 
 
