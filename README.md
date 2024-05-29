@@ -77,8 +77,8 @@
 |`git stash apply` | volta a modificaçao arquivada|
 |`git stash pop`| exclui modificaçao arquivada mais recente da pilha|
 |`git remote add upstream + URL`|adiciona a URL apenas para download (pull), mas nao para upload (push)|
-|`git pull upstream main`| baixa do diretorio principal adicionado em upstream|
-
+|`git pull upstream main`| baixa do diretorio principal adicionado em upstream (ex: quando feito fork baixa da URL original, e nao da minha copia)|
+|`git pull origin main`| baixa do diretorio principal adicionado em origin (ex: quando feito fork baixa da minha copia, e nao da URL original)|
 
 > [!IMPORTANT]
 >- **Quando o local termina em (main), esta no repositorio principal, quando termina em (GIT_DIR!) esta dentro do diretorio**
