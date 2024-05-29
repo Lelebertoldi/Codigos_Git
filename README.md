@@ -77,7 +77,7 @@
 |`git stash apply` | volta a modificaçao arquivada|
 |`git stash pop`| exclui modificaçao arquivada mais recente da pilha|
 |`git remote add upstream + URL`|adiciona a URL apenas para download (pull), mas nao para upload (push)|
-
+|`git pull upstream main`| baixa do diretorio principal adicionado em upstream|
 
 
 > [!IMPORTANT]
