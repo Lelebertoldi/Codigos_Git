@@ -79,15 +79,16 @@
 
 
 
-### Observações
+> [!IMPORTANT]
+>- **Quando o local termina em (main), esta no repositorio principal, quando termina em (GIT_DIR!) esta dentro do diretorio**
+>
+>- **A pasta .git fica oculta**
+>
+>- **Para usar o editor Web do GitHub similar ao VSCode aperte a tecla . dentro do repositório**
+>
+>- **Branches são ramificações do projeto, assim podendo testar algo sem comprometer o arquivo original ou anterior, podendo voltar atrás, no log mostra todas as branches criadas ate o momento**
 
-- **Quando o local termina em (main), esta no repositorio principal, quando termina em (GIT_DIR!) esta dentro do diretorio**
 
-- **A pasta .git fica oculta**
-
-- **Para usar o editor Web do GitHub similar ao VSCode aperte a tecla . dentro do repositório**
-
-- **Branches são ramificações do projeto, assim podendo testar algo sem comprometer o arquivo original ou anterior, podendo voltar atrás, no log mostra todas as branches criadas ate o momento**
 
 
 
