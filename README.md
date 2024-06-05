@@ -54,7 +54,7 @@
 |`git commit -m"nome do commit"`| cria comit (prepara para enviar para remoto)|
 |`git remote add origin + URL` |quando criar repositorio vazio no GitHub para apenas add os arquivos do pc|
 |`git branch -M main` | quando repositorio nao é main, força a ser|
-|`git log` | mostra commit pronto |
+|`git log` | mostra commit pronto (Q para sair) |
 |`git push -u origin main ou master`|encaminha as mudanças commitadas para o GitHub|
 |`rm -rf .git (ou outro)` | remove repositorio git da pasta |
 |`git restore + nome do arquivo` | restaura arquivo, descartando todas as mudanças locais feitas |
