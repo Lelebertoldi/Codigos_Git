@@ -72,7 +72,9 @@
 |`git merge + nome da outra branch` | mescla outra branch com a branch aberta no git|
 |`git branch`| lista as branches do repositorio, o * mostra qual esta aberta no git|
 |`git branch -d + nome da branch` | deleta branch|
+|`git fetch` | baixa alteraçoes do repositorio remoto sem mesclar com remoto atual|
 |`git fetch origin main` | baixa alteraçoes do repositorio remoto sem mesclar com remoto atual|
+|`git diff origin/main` | mostra diferenças do repositorio remoto baixado e repositorio atual|
 |`git merge origin/main` |mescla os 2 arquivos|
 |`git stash`| arquiva ultima modificaçao do arquivo antes do add, para usar em outra branch|
 |`git stash list` | lista modificaçoes arquivadas|
