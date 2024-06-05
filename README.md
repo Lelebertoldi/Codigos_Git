@@ -89,6 +89,8 @@
 >
 >- **A pasta .git fica oculta**
 >
+>- **Quando entrar em log, diff ou algo parecido, apertar Q para sair**
+>
 >- **Para usar o editor Web do GitHub similar ao VSCode aperte a tecla . dentro do repositório**
 >
 >- **Branches são ramificações do projeto, assim podendo testar algo sem comprometer o arquivo original ou anterior, podendo voltar atrás, no log mostra todas as branches criadas ate o momento**
