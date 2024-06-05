@@ -49,6 +49,7 @@
 |`git remote add + nome do repositorio remoto (padrao origin) + URL` | conecta repositorio local com repositorio remoto|
 |`git clone + URL + --branch + nome da branch + --single-branch` | clona apenas a branch especifica (sem nome da branch ele clona a branch main)|
 |`git diff`| mostra mudanças feitas antes de add|
+|`git diff --staged`| mostra mudanças feitas após add, antes de commit|
 |`git add + nome do arquivo ou .` | adiciona arquivo existente ao git, ou . para todos arquivos|
 |`git commit -m"nome do commit"`| cria comit (prepara para enviar para remoto)|
 |`git remote add origin + URL` |quando criar repositorio vazio no GitHub para apenas add os arquivos do pc|
