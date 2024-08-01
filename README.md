@@ -14,6 +14,15 @@
 
 - [Editar README online](https://readme.so/pt)
 
+- [Badges para GitHub](https://github.com/Ileriayo/markdown-badges)
+
+- [Mais Badges para GitHub](https://dev.to/envoy_/150-badges-for-github-pnk)
+
+- [Mais Badges para GitHub 2](https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/utils/badges/badges.md)
+
+- [Gerador de Badges](https://shields.io/)
+
+
 
 
 ## Comandos Principais do Git
