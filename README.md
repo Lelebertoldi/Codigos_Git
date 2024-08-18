@@ -95,7 +95,13 @@
 |`git lfs install`|Instala o LFS (Large File Storage) (Precisa fazer o download do arquivo exe antes)|
 |`git lfs uninstall`|desinstala o LFS (Large File Storage)|
 |`git lfs track "*.mp4" (ou outra extensão de arquivos grandes)`|Adiciona a extensão de arquivo grande ao LFS para poder fazer upload de arquivos maiores|
+|`git lfs untrack "*.mp4" (ou outra extensão de arquivos grandes)`|Remove a extensão de arquivo grande ao LFS para poder fazer upload de arquivos maiores|
+|`git lfs migrate info`|No caso de erro do push no LFS, verifica arquivos do erro|
+|`git lfs migrate import --include="*.mp4" (ou outra extensão de arquivos grandes)`|No caso de erro do push dizendo que o arquivo contém mais de 100mb|
 |`git lfs clone + URL`|Clona arquivos grandes com maior velocidade|
+|`git lfs pull`|Usar se o pull normal falhar em baixar os arquivos lfs, também aumenta velocidade de pull|
+|`git diff --cached`|Compara as mudanças com o repositório local|
+
 
 > [!IMPORTANT]
 >- **Quando o local termina em (main), esta no repositorio principal, quando termina em (GIT_DIR!) esta dentro do diretorio**
