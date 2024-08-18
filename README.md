@@ -92,6 +92,9 @@
 |`git remote add upstream + URL`|adiciona a URL apenas para download (pull), mas nao para upload (push)|
 |`git pull upstream main`| baixa do diretorio principal adicionado em upstream (ex: quando feito fork baixa da URL original, e nao da minha copia)|
 |`git pull origin main`| baixa do diretorio principal adicionado em origin (ex: quando feito fork baixa da minha copia, e nao da URL original)|
+|`git lfs install`|Instala o LFS (Large File Storage) (Precisa fazer o download do arquivo exe antes)|
+|`git lfs uninstall`|desinstala o LFS (Large File Storage)|
+|`git lfs track "*.mp4" (ou outra extensão de arquivos grandes`|Adiciona a extensão de arquivo grande ao LFS para poder fazer upload de arquivos maiores|
 
 > [!IMPORTANT]
 >- **Quando o local termina em (main), esta no repositorio principal, quando termina em (GIT_DIR!) esta dentro do diretorio**
