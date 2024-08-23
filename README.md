@@ -101,7 +101,7 @@
 |`git lfs clone + URL`|Clona arquivos grandes com maior velocidade|
 |`git lfs pull`|Usar se o pull normal falhar em baixar os arquivos lfs, também aumenta velocidade de pull|
 |`git diff --cached`|Compara as mudanças com o repositório local|
-
+|`git reset HEAD~`|Reseta para antes do último commit, pode ser usado mais de uma vez para resetar varios commit na fila |
 
 > [!IMPORTANT]
 >- **Quando o local termina em (main), esta no repositorio principal, quando termina em (GIT_DIR!) esta dentro do diretorio**
