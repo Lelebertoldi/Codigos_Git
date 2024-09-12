@@ -1,8 +1,8 @@
 
-# Treinamento DIO de Git e GitHub
+# Git e GitHub
 
 ---
-> Anotações para uso pessoal sobre os comandos mais úteis do Git do conteúdo aprendido nas aulas da DIO 
+> Anotações para uso pessoal sobre os comandos mais úteis do Git
 
 ## Lins úteis
 
@@ -102,6 +102,48 @@
 |`git lfs pull`|Usar se o pull normal falhar em baixar os arquivos lfs, também aumenta velocidade de pull|
 |`git diff --cached`|Compara as mudanças com o repositório local|
 |`git reset HEAD~`|Reseta para antes do último commit, pode ser usado mais de uma vez para resetar varios commit na fila |
+
+## Comandos GitHub CLI 
+
+`https://cli.github.com/`
+
+### Para baixar todos os repositórios do seu GiHub de uma só vez
+
+``` 
+for repo in $(gh repo list seu_usuario_do_GitHub --limit 100 --json nameWithOwner --jq '.[].nameWithOwner'); do
+  gh repo clone $repo
+done
+```
+
+### Para subir todos os repositórios no seu GiHub de uma só vez
+
+```
+# Diretório onde todos os repositórios foram clonados
+parent_dir="caminho_do_repositorio" (ex: "/d/GitHub")
+
+# Navega até o diretório onde estão os repositórios
+cd "$parent_dir"
+
+# Itera sobre cada diretório de repositório
+for dir in */; do
+  # Verifica se é um diretório
+  if [ -d "$dir" ]; then
+    echo "Processando $dir"
+    cd "$dir"
+    
+    # Adiciona e faz commit das mudanças
+    git add .
+    git commit -m "Atualizando repositório"
+    
+    # Envia as mudanças para o repositório remoto
+    git push
+    
+    # Volta ao diretório pai
+    cd ..
+  fi
+done
+```
+
 
 > [!IMPORTANT]
 >- **Quando o local termina em (main), esta no repositorio principal, quando termina em (GIT_DIR!) esta dentro do diretorio**
